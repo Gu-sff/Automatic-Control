@@ -1,0 +1,6 @@
+Frist I eavluted C_ss,Tp,Sp and got L1.frequency at wc_des is -184,a phase lead is needed.
+Phase is need to increase to between -128 and -120, I chose -124,
+which means 60degrees of pahse lead is needed.
+In order to do that,I chose to use negative real zero.
+After this , phase is good now, but intersectatin still exist,so magntiue increase is needed.
+I chose to increase kc .

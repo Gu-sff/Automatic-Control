@@ -1,0 +1,6 @@
+After steady state design,and plot loop transfer function,
+I got gain -0.756db and pahse - 171 degrees for wc_des
+wc_des is in locis,so phase lead between 31 and 34 degrees needed.
+I chose to use negative real zero and phase lead 32 degrees
+After phase lead, intersction still exist , so I decreased a small amount of kc.
+Next I performed simulation.

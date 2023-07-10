@@ -1,0 +1,11 @@
+s = tf('s');
+H = 1/(s^3 + 2*s^2 +5.25*s + 4.25)
+k = dcgain(H)
+wo = 0.1;
+wo2 = 3;
+[m,f] = bode(H,wo)
+f_rad = f/180*pi
+y1 = 3*abs(m)
+[m2,f2]=bode(H,wo2)
+f2_rad = f2/180*pi
+Au = 1/m2
